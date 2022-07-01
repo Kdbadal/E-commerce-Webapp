@@ -1,0 +1,139 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+
+
+#menu ul
+{
+	list-style: none;	
+	z-index: 2000;
+}
+#menu ul li
+
+{
+		background-color: black;
+		
+		border: 1px solid white;
+		Width: 301.8px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		float: left;
+		position: relative;
+}
+#menu ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	}
+
+#menu ul li a:hover
+{
+	background-color: green;
+}
+#menu ul ul
+{
+	display: none;
+	position: absolute;
+}
+#menu ul li:hover > ul
+
+{
+	display: block;
+		
+}
+	
+	
+
+	
+.cat
+{
+	border: 0px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+;
+}
+.cat_pro
+{
+	border: 0px solid #EAEAEA;
+	width: 420px;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+	transition: transform 1s;
+}
+.cat_pro:hover
+{
+		transform: scale(1.04);
+}
+
+.cat_pro img
+{
+	width: 100.4%;
+}
+.checked
+{
+	color: orange;
+}
+.starr
+{
+	border: 0px solid black;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.abc p
+{
+	
+	text-align: center;
+	font-size: 20px;
+}
+
+.abc b
+{
+	
+	color: green;
+}
+
+.btn
+{
+	border: 0px solid green;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn input
+{
+	height: 35px;
+	width: 120px;
+	border-radius: 7px;
+	border: 0px;
+	background-color: orange;
+	font-size: 18px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+}
+.btn input:hover
+{
+	background-color: green;
+	color: white;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

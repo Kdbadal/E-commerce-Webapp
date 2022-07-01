@@ -1,0 +1,76 @@
+.footer
+{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footerb
+{
+	height: 180px;
+	width: 340px;
+	float: left;
+	color: white;
+	text-align: center;
+	
+}
+
+.fotterbtn
+{
+	height: 180px;
+	width: 340px;
+	float: left;
+	color: white;
+	text-align: center;
+	
+}
+
+.footerbtn
+{
+	width: 50px;
+	hright: 20px;
+	
+}
+.btn
+{
+	border: 0px solid black;
+	height: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn
+{
+	border: 0px solid green;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn input
+{
+	height: 35px;
+	width: 120px;
+	border-radius: 7px;
+	border: 0px;
+	background-color: orange;
+	font-size: 18px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+}
+.btn input:hover
+{
+	background-color: green;
+	color: white;
+}
+	
+.btn_input
+{
+	text color: black;
+	text-decoration: none;
+	display: flex;
+	
+	
+}	
+	

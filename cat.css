@@ -1,0 +1,46 @@
+.cat
+{
+	border: 0px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+;
+}
+.cat_pro
+{
+	border: 2px solid #EAEAEA;
+	width: 420px;
+	height: 350px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+	transition: transform 1s;
+}
+.cat_pro:hover
+{
+		transform: scale(1.04);
+}
+
+.cat_pro img
+{
+	width: 100.4%;
+}
+.checked
+{
+	color: orange;
+}
+.starr
+{
+	border: 0px solid black;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.abc
+{
+	
+	text-align: center;
+	font-size: 20px;
+}

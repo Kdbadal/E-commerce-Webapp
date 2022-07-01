@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loader</title>
+	
+	<script>
+		window.onload=function()
+		{
+			document.getElementById('loader').style.display="none";
+			document.getElementById('content').style.display="block";
+		}
+	</script>
+	
+	
+	<style>
+			#loader
+			{
+			border: 0px solid red;
+			position: absolute;
+			margin: auto;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			width: 100px;
+			height: 100px;
+			}
+			
+			#loader img
+			{
+				width: 100px;
+			
+			
+			}
+			
+			
+			#content
+			{
+				display: none;
+			}
+
+	</style>
+</head>
+
+<body>
+
+<div id="loader">
+	<img src="Spinner-5.gif">
+</div>
+
+</body>
+
+</html>
